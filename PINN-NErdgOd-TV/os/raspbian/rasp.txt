@@ -1,0 +1,15 @@
+http://downloads.raspberrypi.org/raspbian/Raspbian.png
+http://downloads.raspberrypi.org/raspbian/marketing.tar
+http://downloads.raspberrypi.org/raspbian/os.json
+http://downloads.raspberrypi.org/raspbian/partition_setup.sh
+http://downloads.raspberrypi.org/raspbian/partitions.json
+http://downloads.raspberrypi.org/raspbian/boot.tar.xz
+http://downloads.raspberrypi.org/raspbian/root.tar.xz
+
+
+
+
+
+
+
+

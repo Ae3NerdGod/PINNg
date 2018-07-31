@@ -1,0 +1,1 @@
+quiet ramdisk_size=32768 root=/dev/ram0 init=/init vt.cur_default=1 no_group bootmenutimeout=5 elevator=deadline ssh vncshare lang=en_US keyboard=us no_default_source alt_image_source=https://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/reops/NgTV.json
