@@ -67,7 +67,7 @@
                 "http://downloads.raspberrypi.org/raspbian/boot.tar.xz",
                 "http://downloads.raspberrypi.org/raspbian/root.tar.xz"
             ]
-        },
+        }
         
     ]
 }
