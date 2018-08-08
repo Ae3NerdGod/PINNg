@@ -10,7 +10,7 @@
             "os_name": "Emulga-Silver",
             "partition_setup": "http://ip.ae3.info/NgTV/Emulga-silver/partition_setup.sh",
             "partitions_info": "http://ip.ae3.info/NgTV/Emulga-silver/partitions.json",
-            "release_date": "",
+            "release_date": "0000-00-00",
   	    "supported_hex_revisions": "2082",
             "supported_models": [
                 "Pi 3 Model B Rev",
