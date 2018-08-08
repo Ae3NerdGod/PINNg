@@ -2,7 +2,7 @@
  "os_list": [
 
             {
-            "description": "We’re proud to present you our new Emulga Silver 32GB Recalbox image. Features a grand total of 13,080 games over 36 systems. Our goal was to build something that a company like Nintendo could sell. This means a clean system from A to Z. This is the USA version of the image. The Europe English/French image will soon be available.",
+            "description": "We’re proud to present you our new Emulga Silver 32GB Recalbox image.",
             "icon": "http://ip.ae3.info/NgTV/Emulga-silver/Emulga-Silver.png",
            
             "nominal_size": 2048,
