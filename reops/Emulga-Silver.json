@@ -3,13 +3,13 @@
 
             {
             "description": "We’re proud to present you our new Emulga Silver 32GB Recalbox image. Features a grand total of 13,080 games over 36 systems. Our goal was to build something that a company like Nintendo could sell. This means a clean system from A to Z. This is the USA version of the image. The Europe English/French image will soon be available.",
-            "icon": "https://archive.recalbox.com/v1/noobs/recalboxOS.png",
-            "marketing_info": "https://archive.recalbox.com/v1/noobs/marketing.tar",
+            "icon": "http://ip.ae3.info/NgTV/Emulga-silver/Emulga-Silver.png",
+           
             "nominal_size": 2048,
-            "os_info": "https://archive.recalbox.com/v1/noobs/rpi3/os.json",
-            "os_name": "emulga-silver",
-            "partition_setup": "https://archive.recalbox.com/v1/noobs/partition_setup.sh",
-            "partitions_info": "https://archive.recalbox.com/v1/noobs/partitions.json",
+            "os_info": "http://ip.ae3.info/NgTV/Emulga-silver/os.json",
+            "os_name": "Emulga-Silver",
+            "partition_setup": "http://ip.ae3.info/NgTV/Emulga-silver/partition_setup.sh",
+            "partitions_info": "http://ip.ae3.info/NgTV/Emulga-silver/partitions.json",
             "release_date": "",
   	    "supported_hex_revisions": "2082",
             "supported_models": [
@@ -17,8 +17,9 @@
                 "Pi Compute Module 3"
                           ],
             "tarballs": [
-                "https://archive.recalbox.com/v1/noobs/rpi3/boot.tar.xz",
-                "https://archive.recalbox.com/v1/noobs/rpi3/root.tar.xz"
+                "http://ip.ae3.info/NgTV/Emulga-silver/boot.tar.xz",
+                "http://ip.ae3.info/NgTV/Emulga-silver/root.tar.xz",
+                "http://ip.ae3.info/NgTV/Emulga-silver/share.tar.xz"
                       ] 
             }
           ]
