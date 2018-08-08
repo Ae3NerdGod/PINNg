@@ -4,6 +4,10 @@
 			"name" : "NErdgOd-TV",
 			"url"  : "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/reops/NgTV.json"
 		},
+		{
+			"name" : "Emulga-Silver",
+			"url"  : "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/reops/Emulga-Silver.json"
+		},
    		 {
      			 "name" : "LibreELEC REMIX",
     			  "url" : "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/reops/LibreELECremIx.json"	
