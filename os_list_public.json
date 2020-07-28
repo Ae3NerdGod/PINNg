@@ -11,14 +11,14 @@
             "supports_usb_boot": false,
             "supports_usb_root": true,
             "group":           "General",
-            "os_info":         "http://bowtie-ent.com/pinng/ready/manjaro-kde-rpi4-20-06/os.json",
-            "partitions_info": "http://bowtie-ent.com/pinng/ready/manjaro-kde-rpi4-20-06/partitions.json",
-            "icon":            "http://bowtie-ent.com/pinng/ready/manjaro-kde-rpi4-20-06/manjaro-kde-rpi4.png",
-            "marketing_info":  "http://bowtie-ent.com/pinng/ready/manjaro-kde-rpi4-20-06/marketing.tar",
-            "partition_setup": "http://bowtie-ent.com/pinng/ready/manjaro-kde-rpi4-20-06/partition_setup.sh",
+            "os_info":         "https://github.com/Ae3NerdGod/PINNg/raw/master/os/manjaro-kde-rpi4-20-06/os.json",
+            "partitions_info": "https://github.com/Ae3NerdGod/PINNg/raw/master/os/manjaro-kde-rpi4-20-06/partitions.json",
+            "icon":            "https://github.com/Ae3NerdGod/PINNg/raw/master/os/manjaro-kde-rpi4-20-06/manjaro-kde-rpi4.png",
+            "marketing_info":  "https://github.com/Ae3NerdGod/PINNg/raw/master/os/manjaro-kde-rpi4-20-06/marketing.tar",
+            "partition_setup": "https://github.com/Ae3NerdGod/PINNg/raw/master/os/manjaro-kde-rpi4-20-06/partition_setup.sh",
             "tarballs": [
-                               "http://bowtie-ent.com/pinng/ready/manjaro-kde-rpi4-20-06/BOOT_MNJRO.tar.xz",
-                               "http://bowtie-ent.com/pinng/ready/manjaro-kde-rpi4-20-06/ROOT_MNJRO.tar.xz"
+                               "https://github.com/Ae3NerdGod/PINNg/releases/download/m-kde-20.06/BOOT_MNJRO.tar.xz",
+                               "https://github.com/Ae3NerdGod/PINNg/releases/download/m-kde-20.06/ROOT_MNJRO.tar.xz"
             ],
             "nominal_size": 5007
         }
@@ -33,14 +33,14 @@
             "supports_usb_boot": false,
             "supports_usb_root": true,
             "group":           "General",
-            "os_info":         "http://bowtie-ent.com/pinng/ready/manjaro-xfce-rpi4-20-06/os.json",
-            "partitions_info": "http://bowtie-ent.com/pinng/ready/manjaro-xfce-rpi4-20-06/partitions.json",
-            "icon":            "http://bowtie-ent.com/pinng/ready/manjaro-xfce-rpi4-20-06/manjaro-xfce-rpi4.png",
-            "marketing_info":  "http://bowtie-ent.com/pinng/ready/manjaro-xfce-rpi4-20-06/marketing.tar",
-            "partition_setup": "http://bowtie-ent.com/pinng/ready/manjaro-xfce-rpi4-20-06/partition_setup.sh",
+            "os_info":         "https://github.com/Ae3NerdGod/PINNg/raw/master/os/manjaro-xfce-rpi4-20-06/os.json",
+            "partitions_info": "https://github.com/Ae3NerdGod/PINNg/raw/master/os/manjaro-xfce-rpi4-20-06/partitions.json",
+            "icon":            "https://github.com/Ae3NerdGod/PINNg/raw/master/os/manjaro-xfce-rpi4-20-06/manjaro-xfce-rpi4.png",
+            "marketing_info":  "https://github.com/Ae3NerdGod/PINNg/raw/master/os/manjaro-xfce-rpi4-20-06/marketing.tar",
+            "partition_setup": "https://github.com/Ae3NerdGod/PINNg/raw/master/os/manjaro-xfce-rpi4-20-06/partition_setup.sh",
             "tarballs": [
-                               "http://bowtie-ent.com/pinng/ready/manjaro-xfce-rpi4-20-06/BOOT_MNJRO.tar.xz",
-                               "http://bowtie-ent.com/pinng/ready/manjaro-xfce-rpi4-20-06/ROOT_MNJRO.tar.xz"
+                               "https://github.com/Ae3NerdGod/PINNg/releases/download/m-xfce-20.06/BOOT_MNJRO.tar.xz",
+                               "https://github.com/Ae3NerdGod/PINNg/releases/download/m-xfce-20.06/ROOT_MNJRO.tar.xz"
             ],
             "nominal_size": 4371
         }
