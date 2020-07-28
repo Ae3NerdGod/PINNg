@@ -1,0 +1,17 @@
+{
+    "name":                     "manjaro-xfce-rpi4",
+    "description":              "manjaro-xfce-rpi4 20.06 for RPi4",
+    "release_date":             "2020-06-14",
+    "supported_models": [
+        "Pi 4 Model B Rev"
+    ],
+    "version":                  "20.06",
+    "kernel":                   "4.19.127-1",
+    "supports_usb_boot":        true,
+    "supports_usb_root":        true,
+    "supports_backup":          true,
+    "url":                      "http://manjaro.org",
+    "group":                    "General",
+    "username":                 "",
+    "password":                 ""
+}

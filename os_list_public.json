@@ -1,0 +1,50 @@
+{
+ "os_list": [
+
+                    {
+            "os_name":	    "manjaro-kde-rpi4",
+            "description":  "manjaro-kde-rpi4 20.06 for RPi4",
+            "release_date": "2020-06-14",
+            "supported_models": [
+                "Pi 4 Model B Rev"
+            ],
+            "supports_usb_boot": false,
+            "supports_usb_root": true,
+            "group":           "General",
+            "os_info":         "http://bowtie-ent.com/pinng/ready/manjaro-kde-rpi4-20-06/os.json",
+            "partitions_info": "http://bowtie-ent.com/pinng/ready/manjaro-kde-rpi4-20-06/partitions.json",
+            "icon":            "http://bowtie-ent.com/pinng/ready/manjaro-kde-rpi4-20-06/manjaro-kde-rpi4.png",
+            "marketing_info":  "http://bowtie-ent.com/pinng/ready/manjaro-kde-rpi4-20-06/marketing.tar",
+            "partition_setup": "http://bowtie-ent.com/pinng/ready/manjaro-kde-rpi4-20-06/partition_setup.sh",
+            "tarballs": [
+                               "http://bowtie-ent.com/pinng/ready/manjaro-kde-rpi4-20-06/BOOT_MNJRO.tar.xz",
+                               "http://bowtie-ent.com/pinng/ready/manjaro-kde-rpi4-20-06/ROOT_MNJRO.tar.xz"
+            ],
+            "nominal_size": 5007
+        }
+,
+        {
+            "os_name":	    "manjaro-xfce-rpi4",
+            "description":  "manjaro-xfce-rpi4 20.06 for RPi4",
+            "release_date": "2020-06-14",
+            "supported_models": [
+                "Pi 4 Model B Rev"
+            ],
+            "supports_usb_boot": false,
+            "supports_usb_root": true,
+            "group":           "General",
+            "os_info":         "http://bowtie-ent.com/pinng/ready/manjaro-xfce-rpi4-20-06/os.json",
+            "partitions_info": "http://bowtie-ent.com/pinng/ready/manjaro-xfce-rpi4-20-06/partitions.json",
+            "icon":            "http://bowtie-ent.com/pinng/ready/manjaro-xfce-rpi4-20-06/manjaro-xfce-rpi4.png",
+            "marketing_info":  "http://bowtie-ent.com/pinng/ready/manjaro-xfce-rpi4-20-06/marketing.tar",
+            "partition_setup": "http://bowtie-ent.com/pinng/ready/manjaro-xfce-rpi4-20-06/partition_setup.sh",
+            "tarballs": [
+                               "http://bowtie-ent.com/pinng/ready/manjaro-xfce-rpi4-20-06/BOOT_MNJRO.tar.xz",
+                               "http://bowtie-ent.com/pinng/ready/manjaro-xfce-rpi4-20-06/ROOT_MNJRO.tar.xz"
+            ],
+            "nominal_size": 4371
+        }
+			
+			
+          ]
+}
