@@ -46,7 +46,7 @@
         },
 			
 	{ 
-            "description": "Twister OS v1.4.1 for RPi4 ***4gb+ only***",", 
+            "description": "Twister OS v1.4.1 for RPi4 ***4gb+ only***", 
             "icon": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOSv1_4_1/TwisterOSLogo.png", 
             "nominal_size": 10240, 
             "os_info": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOSv1_4_1/os.json", 
