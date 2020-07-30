@@ -43,7 +43,23 @@
                                "http://github.com/Ae3NerdGod/PINNg/releases/download/m-xfce-20.06/ROOT_MNJRO.tar.xz"
             ],
             "nominal_size": 4371
-        }
+        },
+			
+	{ 
+            "description": "Twister OS v1.4.1 for RPi4 ***4gb+ only***",", 
+            "icon": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOSv1_4_1/TwisterOSLogo.png", 
+            "nominal_size": 10240, 
+            "os_info": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOSv1_4_1/os.json", 
+            "os_name": "Twister OS", 
+            "group": "General", 
+            "partition_setup": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOSv1_4_1/twisted_setup.sh", 
+            "partitions_info": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOSv1_4_1/partitions.json", 
+            "release_date": "2020-07-26", 
+            "tarballs": [ 
+                "https://github.com/Ae3NerdGod/PINNg/releases/download/twist-os-1.4.1/boot.tar.xz", 
+                "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOSv1_4_1/rootfs_join | sh && cat /tmp/join/rootfs.tar.xz" 
+            ] 
+			}
 			
 			
           ]
