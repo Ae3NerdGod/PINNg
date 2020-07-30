@@ -13,6 +13,6 @@
     "supports_backup":          true,
     "url":                      "http://raspbian-x.com/",
     "group":                    "General",
-    "username":                 "",
-    "password":                 ""
+    "username":                 "pi",
+    "password":                 "raspberry"
 }
