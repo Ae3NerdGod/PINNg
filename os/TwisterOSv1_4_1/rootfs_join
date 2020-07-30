@@ -1,0 +1,8 @@
+#!/bin/sh
+mkdir -p /tmp/join
+
+wget  --retry-connrefused  --read-timeout=120 --tries=inf --no-verbose -O/tmp/join/rootfs.tar.xz http://bowtie-ent.com/pinng/os/TwisterOSv1_4_1/rootfs_part1
+
+wget  --retry-connrefused  --read-timeout=120 --tries=inf --no-verbose -O- http://bowtie-ent.com/pinng/os/TwisterOSv1_4_1/rootfs_part2 >> /tmp/join/rootfs.tar.xz
+
+
