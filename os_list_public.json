@@ -46,7 +46,7 @@
         },
 			
 	{ 
-            "description": "Twister OS v1.4.1 for RPi4 ***4gb+ RAM only***", 
+            "description": "Twister OS", 
             "icon": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOSv1_4_1/TwisterOSLogo.png", 
             "nominal_size": 10240, 
             "os_info": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOSv1_4_1/os.json", 
@@ -55,6 +55,11 @@
             "partition_setup": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOSv1_4_1/twisted_setup.sh", 
             "partitions_info": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOSv1_4_1/partitions.json", 
             "release_date": "2020-07-26", 
+	    "supported_models": [
+                "Pi 4 Model B Rev"
+            ],
+	    "supports_usb_boot": true,
+            "supports_usb_root": true,
             "tarballs": [ 
                 "http://github.com/Ae3NerdGod/PINNg/releases/download/twist-os-1.4.1/boot.tar.xz", 
                 "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOSv1_4_1/rootfs_join_v2 > /tmp/rootfs.tar.xz && sh /tmp/rootfs.tar.xz" 
