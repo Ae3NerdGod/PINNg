@@ -1,7 +1,7 @@
 
 {
     "name":                     "Twister OS",
-    "description":              "Twister OS v1.4.1 for RPi4 ***4gb+ RAM only***",
+    "description":              "Twister OS v1.4.1",
     "release_date":             "2020-07-26",
     "supported_models": [
         "Pi 4 Model B Rev"
