@@ -8,7 +8,7 @@
             "supported_models": [
                 "Pi 4 Model B Rev"
             ],
-            "supports_usb_boot": false,
+            "supports_usb_boot": true,
             "supports_usb_root": true,
             "group":           "General",
             "os_info":         "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/manjaro-kde-rpi4-20-06/os.json",
@@ -30,7 +30,7 @@
             "supported_models": [
                 "Pi 4 Model B Rev"
             ],
-            "supports_usb_boot": false,
+            "supports_usb_boot": true,
             "supports_usb_root": true,
             "group":           "General",
             "os_info":         "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/manjaro-xfce-rpi4-20-06/os.json",
