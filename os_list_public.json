@@ -54,15 +54,15 @@
             "group": "General", 
             "partition_setup": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOSv1_4_1/twisted_setup.sh", 
             "partitions_info": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOSv1_4_1/partitions.json", 
-            "release_date": "2020-07-26", 
+            "release_date": "2020-08-16", 
 	    "supported_models": [
                 "Pi 4 Model B Rev"
             ],
 	    "supports_usb_boot": true,
             "supports_usb_root": true,
             "tarballs": [ 
-                "http://github.com/Ae3NerdGod/PINNg/releases/download/twist-os-1.4.1/boot.tar.xz", 
-                "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOSv1_4_1/rootfs_join_v2 > /tmp/rootfs.tar.xz && sh /tmp/rootfs.tar.xz" 
+                "http://sourceforge.net/projects/pinng/files/tars/twister/1-5/boot.tar.xz", 
+                "http://sourceforge.net/projects/pinng/files/tars/twister/1-5/rootfs.tar.xz" 
             ] 
 			}
 			
