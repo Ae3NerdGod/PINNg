@@ -1,17 +1,16 @@
 
 {
     "name":                     "Twister OS",
-    "description":              "Twister OS v1.4.1",
-    "release_date":             "2020-07-26",
+    "description":              "Twister OS v1.5",
+    "release_date":             "2020-08-16",
     "supported_models": [
         "Pi 4 Model B Rev"
     ],
-    "version":                  "1.4.1",
-    "kernel":                   "5.4.51-7vl+",
+    "version":                  "1.5",
     "supports_usb_boot":        true,
     "supports_usb_root":        true,
     "supports_backup":          true,
-    "url":                      "http://raspbian-x.com/",
+    "url":                      "http://twisteros.com/",
     "group":                    "General",
     "username":                 "pi",
     "password":                 "raspberry"
