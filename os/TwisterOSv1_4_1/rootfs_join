@@ -1,8 +1,0 @@
-#!/bin/sh
-mkdir -p /tmp/join
-
-wget  --retry-connrefused  --read-timeout=120 --tries=inf --no-verbose -O/tmp/join/rootfs.tar.xz http://github.com/Ae3NerdGod/PINNg/releases/download/twist-os-1.4.1/rootfs_part1
-
-wget  --retry-connrefused  --read-timeout=120 --tries=inf --no-verbose -O- http://github.com/Ae3NerdGod/PINNg/releases/download/twist-os-1.4.1/rootfs_part2 >> /tmp/join/rootfs.tar.xz
-
-

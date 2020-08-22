@@ -8,7 +8,7 @@
             "supported_models": [
                 "Pi 4 Model B Rev"
             ],
-            "supports_usb_boot": false,
+            "supports_usb_boot": true,
             "supports_usb_root": true,
             "group":           "General",
             "os_info":         "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/manjaro-kde-rpi4-20-06/os.json",
@@ -30,7 +30,7 @@
             "supported_models": [
                 "Pi 4 Model B Rev"
             ],
-            "supports_usb_boot": false,
+            "supports_usb_boot": true,
             "supports_usb_root": true,
             "group":           "General",
             "os_info":         "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/manjaro-xfce-rpi4-20-06/os.json",
@@ -46,7 +46,7 @@
         },
 			
 	{ 
-            "description": "Twister OS v1.4.1 for RPi4 ***4gb+ RAM only***", 
+            "description": "Twister OS", 
             "icon": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOSv1_4_1/TwisterOSLogo.png", 
             "nominal_size": 10240, 
             "os_info": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOSv1_4_1/os.json", 
@@ -54,10 +54,15 @@
             "group": "General", 
             "partition_setup": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOSv1_4_1/twisted_setup.sh", 
             "partitions_info": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOSv1_4_1/partitions.json", 
-            "release_date": "2020-07-26", 
+            "release_date": "2020-08-16", 
+	    "supported_models": [
+                "Pi 4 Model B Rev"
+            ],
+	    "supports_usb_boot": true,
+            "supports_usb_root": true,
             "tarballs": [ 
-                "http://downloads.sourceforge.net/project/pinng/tars/twister/boot.tar.xz", 
-                "http://downloads.sourceforge.net/project/pinng/tars/twister/root.tar.xz" 
+                "http://sourceforge.net/projects/pinng/files/tars/twister/1-5/boot.tar.xz", 
+                "http://sourceforge.net/projects/pinng/files/tars/twister/1-5/rootfs.tar.xz" 
             ] 
 			}
 			
