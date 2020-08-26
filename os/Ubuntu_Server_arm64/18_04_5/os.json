@@ -1,0 +1,15 @@
+	{ 
+    "description": "Ubuntu Server 18.04.5 arm64", 
+    "name": "Ubuntu Server 18_04 arm64", 
+    "password": "password", 
+    "release_date": "2020-08-26", 
+    "supported_models": [ 
+        "Pi 3", 
+        "Pi Compute Module 3", 
+        "Pi 4" 
+    ], 
+    "url": "https://ubuntu.com/download/server", 
+    "username": "user", 
+    "version": "18.04.5", 
+	"bootable": true 
+		} 

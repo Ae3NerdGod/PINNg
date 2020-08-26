@@ -1,0 +1,16 @@
+	{ 
+    "description": "Ubuntu Mate 20.04.1 beta2 armhf", 
+    "name": "Ubuntu Mate 20_04 armhf", 
+    "password": "password", 
+    "release_date": "2020-08-26", 
+	"supported_models": [ 
+        "Pi 2", 
+        "Pi 3", 
+        "Pi Compute Module 3", 
+        "Pi 4" 
+    ], 
+    "url": "https://ubuntu-mate.org/", 
+    "username": "user", 
+    "version": "20.04.1 beta2", 
+	"bootable": true 
+		} 

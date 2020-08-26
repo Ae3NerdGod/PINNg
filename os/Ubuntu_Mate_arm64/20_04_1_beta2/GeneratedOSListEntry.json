@@ -1,0 +1,15 @@
+			{ 
+            "description": "ubuntu_mate_20_04_1_beta2_desktop_arm64_raspi_img automatically converted to PINN format with a 10 GB root that PINN wont expand (but the os might try to)", 
+            "icon": "http://bowtie-ent.com/pinng/bowtie.png", 
+            "nominal_size": 10240, 
+            "os_info": "http://bowtie-ent.com/pinng/os/ubuntu_mate_20_04_1_beta2_desktop_arm64_raspi/os10.json", 
+            "os_name": "ubuntu_mate_20_04_1_beta2_desktop_arm64_raspi_img 10gb root", 
+			  "group": "BowTie-Static Size", 
+            "partition_setup": "http://bowtie-ent.com/pinng/psetup", 
+            "partitions_info": "http://bowtie-ent.com/pinng/os/ubuntu_mate_20_04_1_beta2_desktop_arm64_raspi/partitions10.json", 
+            "release_date": "Sat Aug 22 08:20:45 EDT 2020", 
+            "tarballs": [ 
+                "http://bowtie-ent.com/pinng/os/ubuntu_mate_20_04_1_beta2_desktop_arm64_raspi/system-boot.tar.xz", 
+                "http://bowtie-ent.com/pinng/os/ubuntu_mate_20_04_1_beta2_desktop_arm64_raspi/writable.tar.xz" 
+            ] 
+			}, 

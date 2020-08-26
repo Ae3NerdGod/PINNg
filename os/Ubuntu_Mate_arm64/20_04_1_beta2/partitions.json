@@ -1,0 +1,20 @@
+{
+"partitions": [
+{
+    "filesystem_type": "FAT",
+			"label": "system-boot",
+   "mkfs_options": "-F 32",
+    "partition_size_nominal": 256,
+    "uncompressed_tarball_size": 59,
+    "want_maximised": false,
+	  "bootable": true 
+},
+{
+    "filesystem_type": "ext4",
+    "label": "writable",
+    "mkfs_options": "-O ^huge_file",
+    "uncompressed_tarball_size": 4171,
+    "want_maximised": true
+}
+]
+}

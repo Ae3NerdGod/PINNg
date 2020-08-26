@@ -1,0 +1,15 @@
+			{ 
+            "description": "Manjaro_ARM_sway_rpi4_20_08_img automatically converted to PINN format with a 10 GB root that PINN wont expand (but the os might try to)", 
+            "icon": "http://bowtie-ent.com/pinng/bowtie.png", 
+            "nominal_size": 10240, 
+            "os_info": "http://bowtie-ent.com/pinng/os/Manjaro_ARM_sway_rpi4_20_08/os10.json", 
+            "os_name": "Manjaro_ARM_sway_rpi4_20_08_img 10gb root", 
+			  "group": "BowTie-Static Size", 
+            "partition_setup": "http://bowtie-ent.com/pinng/psetup", 
+            "partitions_info": "http://bowtie-ent.com/pinng/os/Manjaro_ARM_sway_rpi4_20_08/partitions10.json", 
+            "release_date": "Sat Aug 22 06:27:01 EDT 2020", 
+            "tarballs": [ 
+                "http://bowtie-ent.com/pinng/os/Manjaro_ARM_sway_rpi4_20_08/BOOT_MNJRO.tar.xz", 
+                "http://bowtie-ent.com/pinng/os/Manjaro_ARM_sway_rpi4_20_08/ROOT_MNJRO.tar.xz" 
+            ] 
+			}, 

@@ -1,0 +1,71 @@
+{
+ "os_list": [
+
+                    {
+            "os_name":	    "manjaro-kde-rpi4",
+            "description":  "manjaro-kde-rpi4 20.06 for RPi4",
+            "release_date": "2020-06-14",
+            "supported_models": [
+                "Pi 4 Model B Rev"
+            ],
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "group":           "General",
+            "os_info":         "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/manjaro-kde-rpi4-20-06/os.json",
+            "partitions_info": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/manjaro-kde-rpi4-20-06/partitions.json",
+            "icon":            "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/manjaro-kde-rpi4-20-06/manjaro-kde-rpi4.png",
+            "marketing_info":  "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/manjaro-kde-rpi4-20-06/marketing.tar",
+            "partition_setup": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/manjaro-kde-rpi4-20-06/partition_setup.sh",
+            "tarballs": [
+                               "http://github.com/Ae3NerdGod/PINNg/releases/download/m-kde-20.06/BOOT_MNJRO.tar.xz",
+                               "http://github.com/Ae3NerdGod/PINNg/releases/download/m-kde-20.06/ROOT_MNJRO.tar.xz"
+            ],
+            "nominal_size": 5007
+        }
+,
+        {
+            "os_name":	    "manjaro-xfce-rpi4",
+            "description":  "manjaro-xfce-rpi4 20.06 for RPi4",
+            "release_date": "2020-06-14",
+            "supported_models": [
+                "Pi 4 Model B Rev"
+            ],
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "group":           "General",
+            "os_info":         "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/manjaro-xfce-rpi4-20-06/os.json",
+            "partitions_info": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/manjaro-xfce-rpi4-20-06/partitions.json",
+            "icon":            "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/manjaro-xfce-rpi4-20-06/manjaro-xfce-rpi4.png",
+            "marketing_info":  "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/manjaro-xfce-rpi4-20-06/marketing.tar",
+            "partition_setup": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/manjaro-xfce-rpi4-20-06/partition_setup.sh",
+            "tarballs": [
+                               "http://github.com/Ae3NerdGod/PINNg/releases/download/m-xfce-20.06/BOOT_MNJRO.tar.xz",
+                               "http://github.com/Ae3NerdGod/PINNg/releases/download/m-xfce-20.06/ROOT_MNJRO.tar.xz"
+            ],
+            "nominal_size": 4371
+        },
+			
+	{ 
+            "description": "Twister OS", 
+            "icon": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOS/TwisterOSLogo.png", 
+            "nominal_size": 10240, 
+            "os_info": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOS/os.json", 
+            "os_name": "Twister OS", 
+            "group": "General", 
+            "partition_setup": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOS/twisted_setup.sh", 
+            "partitions_info": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOS/partitions.json", 
+            "release_date": "2020-08-16", 
+	    "supported_models": [
+                "Pi 4 Model B Rev"
+            ],
+	    "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "tarballs": [ 
+                "http://sourceforge.net/projects/pinng/files/tars/twister/1-5/boot.tar.xz", 
+                "http://sourceforge.net/projects/pinng/files/tars/twister/1-5/rootfs.tar.xz" 
+            ] 
+			}
+			
+			
+          ]
+}

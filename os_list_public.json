@@ -1,71 +1,262 @@
 {
  "os_list": [
 
-                    {
-            "os_name":	    "manjaro-kde-rpi4",
-            "description":  "manjaro-kde-rpi4 20.06 for RPi4",
-            "release_date": "2020-06-14",
+        {
+            "os_name":	    "manjaro-i3-rpi4",
+            "description":  "manjaro-i3-rpi4 20.08 for RPi4",
+            "release_date": "2020-08-22",
             "supported_models": [
                 "Pi 4 Model B Rev"
             ],
             "supports_usb_boot": true,
             "supports_usb_root": true,
             "group":           "General",
-            "os_info":         "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/manjaro-kde-rpi4-20-06/os.json",
-            "partitions_info": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/manjaro-kde-rpi4-20-06/partitions.json",
-            "icon":            "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/manjaro-kde-rpi4-20-06/manjaro-kde-rpi4.png",
-            "marketing_info":  "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/manjaro-kde-rpi4-20-06/marketing.tar",
-            "partition_setup": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/manjaro-kde-rpi4-20-06/partition_setup.sh",
+            "os_info":         "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/Manjaro_i3/20_08/os.json",
+            "partitions_info": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/Manjaro_i3/20_08/partitions.json",
+            "icon":            "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/ico/manjaro.png",
+            "marketing_info":  "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/marketing/manjaro-i3.tar",
+            "partition_setup": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/psetup/manjaro_setup.sh",
             "tarballs": [
-                               "http://github.com/Ae3NerdGod/PINNg/releases/download/m-kde-20.06/BOOT_MNJRO.tar.xz",
-                               "http://github.com/Ae3NerdGod/PINNg/releases/download/m-kde-20.06/ROOT_MNJRO.tar.xz"
+                               "http://sourceforge.net/projects/pinng/files/tars/Manjaro_i3/20_08/BOOT_MNJRO.tar.xz",
+                               "http://sourceforge.net/projects/pinng/files/tars/Manjaro_i3/20_08/ROOT_MNJRO.tar.xz"
             ],
-            "nominal_size": 5007
-        }
-,
+            "nominal_size": 3667
+        },
+        {
+            "os_name":	    "manjaro-kde-rpi4",
+            "description":  "manjaro-kde-rpi4 20.08 for RPi4",
+            "release_date": "2020-08-22",
+            "supported_models": [
+                "Pi 4 Model B Rev"
+            ],
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "group":           "General",
+            "os_info":         "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/Manjaro_kde/20_08/os.json",
+            "partitions_info": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/Manjaro_kde/20_08/partitions.json",
+            "icon":            "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/ico/manjaro.png",
+            "marketing_info":  "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/marketing/manjaro-kde.tar",
+            "partition_setup": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/psetup/manjaro_setup.sh",
+            "tarballs": [
+                               "http://sourceforge.net/projects/pinng/files/tars/Manjaro_kde/20_08/BOOT_MNJRO.tar.xz",
+                               "http://sourceforge.net/projects/pinng/files/tars/Manjaro_kde/20_08/ROOT_MNJRO.tar.xz"
+            ],
+            "nominal_size": 4574
+        },
+		{
+            "os_name":	    "manjaro-sway-rpi4",
+            "description":  "manjaro-sway-rpi4 20.08 for RPi4",
+            "release_date": "2020-08-22",
+            "supported_models": [
+                "Pi 4 Model B Rev"
+            ],
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "group":           "General",
+            "os_info":         "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/Manjaro_sway/20_08/os.json",
+            "partitions_info": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/Manjaro_sway/20_08/partitions.json",
+            "icon":            "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/ico/manjaro.png",
+            "marketing_info":  "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/marketing/manjaro-sway.tar",
+            "partition_setup": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/psetup/manjaro_setup.sh",
+            "tarballs": [
+                               "http://sourceforge.net/projects/pinng/files/tars/Manjaro_sway/20_08/BOOT_MNJRO.tar.xz",
+                               "http://sourceforge.net/projects/pinng/files/tars/Manjaro_sway/20_08/ROOT_MNJRO.tar.xz"
+            ],
+            "nominal_size": 4595
+        },
+		
         {
             "os_name":	    "manjaro-xfce-rpi4",
-            "description":  "manjaro-xfce-rpi4 20.06 for RPi4",
-            "release_date": "2020-06-14",
+            "description":  "manjaro-xfce-rpi4 20.08 for RPi4",
+            "release_date": "2020-08-22",
             "supported_models": [
                 "Pi 4 Model B Rev"
             ],
             "supports_usb_boot": true,
             "supports_usb_root": true,
             "group":           "General",
-            "os_info":         "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/manjaro-xfce-rpi4-20-06/os.json",
-            "partitions_info": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/manjaro-xfce-rpi4-20-06/partitions.json",
-            "icon":            "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/manjaro-xfce-rpi4-20-06/manjaro-xfce-rpi4.png",
-            "marketing_info":  "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/manjaro-xfce-rpi4-20-06/marketing.tar",
-            "partition_setup": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/manjaro-xfce-rpi4-20-06/partition_setup.sh",
+            "os_info":         "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/Manjaro_xfce/20_08/os.json",
+            "partitions_info": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/Manjaro_xfce/20_08/partitions.json",
+            "icon":            "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/ico/manjaro.png",
+            "marketing_info":  "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/marketing/manjaro-xfce.tar",
+            "partition_setup": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/psetup/manjaro_setup.sh",
             "tarballs": [
-                               "http://github.com/Ae3NerdGod/PINNg/releases/download/m-xfce-20.06/BOOT_MNJRO.tar.xz",
-                               "http://github.com/Ae3NerdGod/PINNg/releases/download/m-xfce-20.06/ROOT_MNJRO.tar.xz"
+                               "http://sourceforge.net/projects/pinng/files/tars/Manjaro_xfce/20_08/BOOT_MNJRO.tar.xz",
+                               "http://sourceforge.net/projects/pinng/files/tars/Manjaro_xfce/20_08/ROOT_MNJRO.tar.xz"
             ],
-            "nominal_size": 4371
+            "nominal_size": 3935
         },
-			
-	{ 
-            "description": "Twister OS", 
-            "icon": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOSv1_4_1/TwisterOSLogo.png", 
-            "nominal_size": 10240, 
-            "os_info": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOSv1_4_1/os.json", 
+	
+		{ 
             "os_name": "Twister OS", 
-            "group": "General", 
-            "partition_setup": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOSv1_4_1/twisted_setup.sh", 
-            "partitions_info": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOSv1_4_1/partitions.json", 
-            "release_date": "2020-08-16", 
-	    "supported_models": [
+            "group": "General",
+			"description": "Twister OS", 
+			"release_date": "2020-08-16", 
+			"supported_models": [
                 "Pi 4 Model B Rev"
             ],
-	    "supports_usb_boot": true,
+			"supports_usb_boot": true,
             "supports_usb_root": true,
+            "icon": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/ico/TwisterOSLogo.png", 
+            "os_info": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOS/1_5/os.json", 
+			"marketing_info":  "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/marketing/twist.tar", 
+            "partition_setup": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/psetup/twisted_setup.sh", 
+            "partitions_info": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/TwisterOS/1_5/partitions.json", 
             "tarballs": [ 
                 "http://sourceforge.net/projects/pinng/files/tars/twister/1-5/boot.tar.xz", 
                 "http://sourceforge.net/projects/pinng/files/tars/twister/1-5/rootfs.tar.xz" 
-            ] 
-			}
-			
-			
-          ]
+            ],
+			"nominal_size": 5900
+		},
+
+		{
+            "os_name":	    "Ubuntu Mate 20_04 arm64",
+            "description":  "Ubuntu Mate 20.04.1 beta2 arm64",
+            "release_date": "2020-08-22",
+             "supported_models": [
+                "Pi 3",
+                "Pi Compute Module 3",
+                "Pi 4"
+            ],
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "group":           "Testing",
+            "os_info":         "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/Ubuntu_Mate_arm64/20_04_1_beta2/os.json",
+            "partitions_info": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/Ubuntu_Mate_arm64/20_04_1_beta2/partitions.json",
+            "icon":            "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/ico/ubuntu_mate.png",
+            "marketing_info":  "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/marketing/ubuntu_mate.tar",
+            "partition_setup": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/psetup/ubuntu_64_setup.sh",
+            "tarballs": [
+                               "http://sourceforge.net/projects/pinng/files/tars/Ubuntu_Mate_arm64/20_04_1_beta2/system-boot.tar.xz",
+                               "http://sourceforge.net/projects/pinng/files/tars/Ubuntu_Mate_arm64/20_04_1_beta2/writable.tar.xz"
+            ],
+            "nominal_size": 4230
+        },
+				
+		{
+            "os_name":	    "Ubuntu Mate 20_04 armhf",
+            "description":  "Ubuntu Mate 20.04.1 beta2 armhf",
+            "release_date": "2020-08-22",
+             "supported_models": [
+				"Pi 2",
+                "Pi 3",
+                "Pi Compute Module 3",
+                "Pi 4"
+            ],
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "group":           "Testing",
+            "os_info":         "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/Ubuntu_Mate_armhf/20_04_1_beta2/os.json",
+            "partitions_info": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/Ubuntu_Mate_armhf/20_04_1_beta2/partitions.json",
+            "icon":            "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/ico/ubuntu_mate.png",
+            "marketing_info":  "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/marketing/ubuntu_mate.tar",
+            "partition_setup": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/psetup/ubuntu_svr_setup.sh",
+            "tarballs": [
+                               "http://sourceforge.net/projects/pinng/files/tars/Ubuntu_Mate_armhf/20_04_1_beta2/system-boot.tar.xz",
+                               "http://sourceforge.net/projects/pinng/files/tars/Ubuntu_Mate_armhf/20_04_1_beta2/writable.tar.xz"
+            ],
+            "nominal_size": 3730
+        },
+		
+		{
+            "os_name":	    "Ubuntu Server 20_04 arm64",
+            "description":  "Ubuntu Server 20.04.1 arm64",
+            "release_date": "2020-08-22",
+             "supported_models": [
+                "Pi 3",
+                "Pi Compute Module 3",
+                "Pi 4"
+            ],
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "group":           "General",
+            "os_info":         "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/Ubuntu_Server_arm64/20_04_1/os.json",
+            "partitions_info": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/Ubuntu_Server_arm64/20_04_1/partitions.json",
+            "icon":            "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/ico/ubuntu_server.png",
+            "marketing_info":  "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/marketing/ubuntu_server.tar",
+            "partition_setup": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/psetup/ubuntu_64_setup.sh",
+            "tarballs": [
+                               "http://sourceforge.net/projects/pinng/files/tars/Ubuntu_Server_arm64/20_04_1/system-boot.tar.xz",
+                               "http://sourceforge.net/projects/pinng/files/tars/Ubuntu_Server_arm64/20_04_1/writable.tar.xz"
+            ],
+            "nominal_size": 1019
+        },
+				
+		{
+            "os_name":	    "Ubuntu Server 20_04 armhf",
+            "description":  "Ubuntu Server 20.04.1 armhf",
+            "release_date": "2020-08-22",
+             "supported_models": [
+				"Pi 2",
+                "Pi 3",
+                "Pi Compute Module 3",
+                "Pi 4"
+            ],
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "group":           "General",
+            "os_info":         "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/Ubuntu_Server_armhf/20_04_1/os.json",
+            "partitions_info": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/Ubuntu_Server_armhf/20_04_1/partitions.json",
+            "icon":            "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/ico/ubuntu_server.png",
+            "marketing_info":  "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/marketing/ubuntu_server.tar",
+            "partition_setup": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/psetup/ubuntu_svr_setup.sh",
+            "tarballs": [
+                               "http://sourceforge.net/projects/pinng/files/tars/Ubuntu_Server_armhf/20_04_1/system-boot.tar.xz",
+                               "http://sourceforge.net/projects/pinng/files/tars/Ubuntu_Server_armhf/20_04_1/writable.tar.xz"
+            ],
+            "nominal_size": 1622
+        },
+		
+		{
+            "os_name":	    "Ubuntu Server 18_04 arm64",
+            "description":  "Ubuntu Server 18.04.5 arm64",
+            "release_date": "2020-08-22",
+             "supported_models": [
+                "Pi 3",
+                "Pi Compute Module 3",
+                "Pi 4"
+            ],
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "group":           "General",
+            "os_info":         "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/Ubuntu_Server_arm64/18_04_5/os.json",
+            "partitions_info": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/Ubuntu_Server_arm64/18_04_5/partitions.json",
+            "icon":            "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/ico/ubuntu_server.png",
+            "marketing_info":  "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/marketing/ubuntu_server.tar",
+            "partition_setup": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/psetup/ubuntu_64_setup.sh",
+            "tarballs": [
+                               "http://sourceforge.net/projects/pinng/files/tars/Ubuntu_Server_arm64/18_04_5/system-boot.tar.xz",
+                               "http://sourceforge.net/projects/pinng/files/tars/Ubuntu_Server_arm64/18_04_5/writable.tar.xz"
+            ],
+            "nominal_size": 1019
+        },
+				
+		{
+            "os_name":	    "Ubuntu Server 18_04 armhf",
+            "description":  "Ubuntu Server 18.04.5 armhf",
+            "release_date": "2020-08-22",
+             "supported_models": [
+				"Pi 2",
+                "Pi 3",
+                "Pi Compute Module 3",
+                "Pi 4"
+            ],
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "group":           "General",
+            "os_info":         "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/Ubuntu_Server_armhf/18_04_5/os.json",
+            "partitions_info": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/os/Ubuntu_Server_armhf/18_04_5/partitions.json",
+            "icon":            "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/ico/ubuntu_server.png",
+            "marketing_info":  "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/marketing/ubuntu_server.tar",
+            "partition_setup": "http://raw.githubusercontent.com/Ae3NerdGod/PINNg/master/psetup/ubuntu_svr_setup.sh",
+            "tarballs": [
+                               "http://sourceforge.net/projects/pinng/files/tars/Ubuntu_Server_armhf/18_04_5/system-boot.tar.xz",
+                               "http://sourceforge.net/projects/pinng/files/tars/Ubuntu_Server_armhf/18_04_5/writable.tar.xz"
+            ],
+            "nominal_size": 1622
+        }
+				
+        
+		
+    ]
 }

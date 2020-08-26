@@ -1,0 +1,13 @@
+	{ 
+    "description": "manjaro-sway-rpi4 20.08 for RPi4",
+    "name": "manjaro-sway-rpi4 20.08", 
+    "password": "password", 
+    "release_date": "2020-08-22",  
+    "supported_models": [ 
+        "Pi 4" 
+    ], 
+    "url": "https://manjaro.org/", 
+    "username": "user", 
+    "version": "20.08", 
+	"bootable": true 
+		} 
